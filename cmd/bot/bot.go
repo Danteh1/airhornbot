@@ -100,6 +100,16 @@ var AIRHORN *SoundCollection = &SoundCollection{
 	},
 }
 
+var IM_GAY *SoundCollection = &SoundCollection{
+	Prefix: "im_gay",
+	Commands: []string{
+		"!im_gay",
+	},
+	Sounds: []*Sound{
+		createSound("default", 1000, 250),
+	},
+}
+
 var KHALED *SoundCollection = &SoundCollection{
 	Prefix:    "another",
 	ChainWith: AIRHORN,
